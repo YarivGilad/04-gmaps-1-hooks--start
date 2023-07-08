@@ -3,27 +3,20 @@
 * Copyright © Written by Yariv Gilad © https://yarivgilad.com 
 ---------------------------------------------------------------
 
-========================================
-## Map out those lifecycle methods!!!
-========================================
+=============================
+## Hook into those Maps...
+=============================
 
-1. Add 2 more buttons for London & Paris
-   💡You can get the coordinates using the Google Maps website.
+1. Refactor both the <App> component and the <GoogleMap> component.
 
-2. Implement the zoom functionality using the numeric input
-   💡 the single zoom input serves all 3 locations.
+2. Both need to be function components using React hooks
 
 ====================
 `### Bonus tasks :)`
 ====================
 
-Feel free to explore more geo-location features and the Google Maps api.
-Some ideas:
-
-1. Add Markers to the map.
-2. Add info tooltip that appears marker click and display more info.
-3. Integrate the Browser's geo-location api
-   to ask & display the user's location
+1. Add the bonus tasks of solution 2 (markers, infoWindow, etc...)
+2. Think where custom hooks could improve your code
 
                ,,__
         ..  ..   / o._)                   .---.
